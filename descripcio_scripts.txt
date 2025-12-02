@@ -1,0 +1,23 @@
+Descripció breu dels scripts PowerShell
+
+Find-Item.ps1
+
+Aquest script permet buscar un fitxer o directori dins d’una ruta
+especificada.
+Rep com a paràmetres la ruta on buscar i el nom (o patró) del
+fitxer/directori.
+Realitza una cerca recursiva i mostra la ruta completa dels resultats
+trobats.
+
+Exemple d'ús
+.\Find-Item.ps1 -Path "C:\Users" -Name "document.txt"
+
+Backup-Folder.ps1
+
+Aquest script realitza una còpia de seguretat d’un directori origen cap
+a un directori destí indicat.
+Crea automàticament una carpeta de backup amb data i hora, i copia tot
+el contingut de manera recursiva.
+
+Exemple d'ús
+.\Backup-Folder.ps1 -Source "C:\Dades" -Destination "D:\Backups"
