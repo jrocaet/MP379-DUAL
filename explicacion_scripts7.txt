@@ -1,0 +1,34 @@
+1. calcu.ps1
+
+Este script realiza operaciones matemáticas básicas entre dos valores
+numéricos.
+Recibe tres parámetros obligatorios:
+
+-   Valor1: primer número.
+-   Valor2: segundo número.
+-   Operacio: operación a realizar (+, -, *, /).
+
+El script define una función Calcular, que valida la operación y la
+ejecuta.
+Si la operación es una división y el segundo valor es cero, muestra un
+error.
+
+Ejemplo de uso:
+
+    .\calcu.ps1 -Valor1 10 -Valor2 5 -Operacio *
+
+
+
+2. check-file.ps1
+
+Este script comprueba si un archivo existe en la ruta indicada.
+Tiene un parámetro obligatorio:
+
+-   NomFitxer: ruta y nombre del archivo a verificar.
+
+Usa la función Comprovar-Fitxer para verificar existencia con Test-Path.
+Luego pregunta al usuario si desea continuar (s o n).
+
+Ejemplo de uso:
+
+    .\check-file.ps1 -NomFitxer C:\prova.txt
