@@ -1,0 +1,28 @@
+1. mount-iso.ps1
+
+Aquest script permet: - Muntar un fitxer ISO especificat per l’usuari. -
+Copiar automàticament el primer fitxer que es trobi dins la ISO. -
+Desmuntar la ISO.
+
+Exemple d’ús:
+
+    .\mount-iso.ps1 -RutaISO "C:\imatge.iso" -RutaDesti "C:\destinacio"
+
+2. tcp-check.ps1
+
+Aquest script comprova que hi hagi connexió TCP utilitzant 8.8.8.8:53
+Si tot funciona, mostra un missatge emergent indicant que la xarxa està
+operativa.
+
+Exemple d’ús:
+
+    .   cp-check.ps1
+
+3. filter-ports.ps1
+
+Filtra i mostra ports oberts segons el tipus: - TCP - UDP - ALL (tots
+dos)
+
+Exemple d’ús:
+
+    .ilter-ports.ps1 -Tipus TCP
